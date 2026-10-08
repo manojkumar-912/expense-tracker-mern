@@ -1,0 +1,96 @@
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.expense-table thead {
+  background: #f8f9fa;
+  border-bottom: 2px solid #ddd;
+}
+
+.expense-table th {
+  padding: 15px;
+  text-align: left;
+  color: #333;
+  font-weight: 600;
+}
+
+.expense-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  color: #666;
+}
+
+.expense-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.category-badge.food {
+  background: #ff6b6b;
+}
+
+.category-badge.transport {
+  background: #4ecdc4;
+}
+
+.category-badge.entertainment {
+  background: #ffd93d;
+  color: #333;
+}
+
+.category-badge.utilities {
+  background: #95e1d3;
+}
+
+.category-badge.health {
+  background: #f38181;
+}
+
+.category-badge.shopping {
+  background: #aa96da;
+}
+
+.category-badge.other {
+  background: #999;
+}
+
+.amount {
+  font-weight: 600;
+  color: #667eea;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-edit:hover,
+.btn-delete:hover {
+  transform: scale(1.2);
+}
+
+.no-expenses {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+  font-size: 16px;
+}
