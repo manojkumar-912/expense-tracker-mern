@@ -1,20 +1,20 @@
-# 💰 Expense Tracker - MERN Stack Application
+#  Expense Tracker - MERN Stack Application
 
 A full-stack web application built with **MongoDB, Express.js, React.js, and Node.js (MERN)** that helps users track their expenses efficiently with intuitive categorization, filtering, and visual analytics.
 
-## 🎯 Features
+##  Features
 
-- ✅ **User Authentication** - Secure registration and login with JWT tokens
-- ✅ **Add/Edit/Delete Expenses** - Full CRUD operations on expense records
-- ✅ **Category-based Tracking** - Organize expenses by categories (Food, Transport, Entertainment, Utilities, Health, Shopping, Other)
-- ✅ **Filter & Search** - Filter expenses by category and date range
-- ✅ **Analytics Dashboard** - Visual charts showing spending patterns using Recharts
-- ✅ **Statistics** - Total spent, average expense, and expense count metrics
-- ✅ **Responsive Design** - Mobile-friendly UI that works on all devices
-- ✅ **JWT-based Security** - Protected API endpoints with token authentication
-- ✅ **Password Hashing** - Secure password storage using bcryptjs
+-  **User Authentication** - Secure registration and login with JWT tokens
+-  **Add/Edit/Delete Expenses** - Full CRUD operations on expense records
+-  **Category-based Tracking** - Organize expenses by categories (Food, Transport, Entertainment, Utilities, Health, Shopping, Other)
+-  **Filter & Search** - Filter expenses by category and date range
+-  **Analytics Dashboard** - Visual charts showing spending patterns using Recharts
+-  **Statistics** - Total spent, average expense, and expense count metrics
+-  **Responsive Design** - Mobile-friendly UI that works on all devices
+-  **JWT-based Security** - Protected API endpoints with token authentication
+-  **Password Hashing** - Secure password storage using bcryptjs
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Backend
 - **Node.js** - JavaScript runtime
@@ -33,7 +33,7 @@ A full-stack web application built with **MongoDB, Express.js, React.js, and Nod
 - **Recharts** - Chart library for data visualization
 - **CSS3** - Styling with gradients and responsive design
 
-## 📋 Project Structure
+##  Project Structure
 
 ```
 expense-tracker-mern/
@@ -80,7 +80,7 @@ expense-tracker-mern/
     └── package.json
 ```
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -159,7 +159,7 @@ expense-tracker-mern/
    - Navigate to `http://localhost:5173`
    - Register a new account or login
 
-## 🔑 API Endpoints
+##  API Endpoints
 
 ### Authentication Endpoints
 - `POST /api/auth/register` - Register new user
@@ -172,7 +172,7 @@ expense-tracker-mern/
 - `PUT /api/expenses/:id` - Update expense
 - `DELETE /api/expenses/:id` - Delete expense
 
-## 💡 AI Tool Usage
+##  AI Tool Usage
 
 ### Code0 / Kiro Integration
 
@@ -194,7 +194,7 @@ I used **GitHub Copilot** (AI Development Tool) extensively during development f
 4. **Auth Middleware** - AI implemented JWT verification and token extraction
 5. **Expense Filtering** - AI created query builders for category and date filtering
 
-## 🐛 Debugging & Problem Solving
+##  Debugging & Problem Solving
 
 - Handled CORS errors by configuring proper headers in Express
 - Fixed password comparison by using bcryptjs's built-in methods
@@ -202,7 +202,7 @@ I used **GitHub Copilot** (AI Development Tool) extensively during development f
 - Debugged async/await issues in React useEffect hooks
 - Fixed MongoDB connection pooling for production environments
 
-## 📊 Sample Usage
+## Sample Usage
 
 1. **Register** → Create new account
 2. **Login** → Access dashboard
@@ -212,7 +212,7 @@ I used **GitHub Copilot** (AI Development Tool) extensively during development f
 6. **Edit/Delete** → Modify or remove expenses
 7. **View Analytics** → See pie chart of spending by category
 
-## 🔒 Security Features
+## Security Features
 
 - Password hashing with bcryptjs
 - JWT token-based authentication
@@ -221,7 +221,7 @@ I used **GitHub Copilot** (AI Development Tool) extensively during development f
 - CORS configuration for safe cross-origin requests
 - Error messages don't leak sensitive information
 
-## 🎨 UI/UX Highlights
+## UI/UX Highlights
 
 - Modern gradient design with purple theme
 - Smooth transitions and hover effects
@@ -230,7 +230,7 @@ I used **GitHub Copilot** (AI Development Tool) extensively during development f
 - Visual statistics cards
 - Interactive pie charts
 
-## 🚢 Production Deployment
+## Production Deployment
 
 ### Backend Deployment (Railway/Render)
 - Update `.env` with production MongoDB URI
@@ -242,7 +242,7 @@ I used **GitHub Copilot** (AI Development Tool) extensively during development f
 - Build: `npm run build`
 - Deploy dist folder
 
-## 📝 Database Models
+## Database Models
 
 ### User Model
 ```javascript
@@ -264,15 +264,15 @@ I used **GitHub Copilot** (AI Development Tool) extensively during development f
 }
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork this project and submit pull requests for any improvements.
 
-## 📄 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 👨‍💻 Author
+## Author
 
 Built as a demonstration of MERN stack development with AI-assisted coding tools.
 
