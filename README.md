@@ -277,5 +277,4 @@ This project is open source and available under the MIT License.
 Built as a demonstration of MERN stack development with AI-assisted coding tools.
 
 ---
-
-**Happy Tracking! 💸📊**
+**
